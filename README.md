@@ -1,4 +1,4 @@
-# 📅 Python Timetable Scheduler
+# Python Timetable Scheduler
 
 > A smart, interactive web-based timetable generator for schools and colleges — built from a Python notebook into a full no-install browser app.
 
@@ -8,17 +8,17 @@
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 **Try it instantly — no install needed:**
 
-👉 **[https://om-physics.github.io/Python_Timetable_Scheduler/](https://om-physics.github.io/Python_Timetable_Scheduler/)**
+**[https://om-physics.github.io/Python_Timetable_Scheduler/](https://om-physics.github.io/Python_Timetable_Scheduler/)**
 
 Open in any browser. Works on desktop and mobile. No sign-up required.
 
 ---
 
-## 📌 What Is This?
+## What Is This?
 
 This project started as a Python Jupyter notebook (`Time_Table.ipynb`) for generating school and college timetables using a constraint-based scheduling algorithm. It has since been fully rebuilt into a **standalone, interactive web application** — a single HTML file that runs entirely in the browser with no server, no Python, and no dependencies.
 
@@ -26,7 +26,7 @@ The scheduling logic is preserved and improved from the original notebook, with 
 
 ---
 
-## ✨ Features
+## Features
 
 ### Scheduling Engine
 - Automatic weekly timetable generation for multiple classes and sections
@@ -61,7 +61,7 @@ The scheduling logic is preserved and improved from the original notebook, with 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Option A — Use the live web app (recommended)
 Visit the live demo link above. No setup needed.
@@ -91,7 +91,7 @@ jupyter notebook notebooks/Time_Table.ipynb
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Python_Timetable_Scheduler/
@@ -111,7 +111,7 @@ Python_Timetable_Scheduler/
 
 ---
 
-## 🧠 How the Scheduler Works
+## How the Scheduler Works
 
 The algorithm operates in passes over each class-section:
 
@@ -123,7 +123,7 @@ The algorithm operates in passes over each class-section:
 
 ---
 
-## ⚙️ Configuration Reference
+## Configuration Reference
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
@@ -143,7 +143,7 @@ The algorithm operates in passes over each class-section:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! See [CONTRIBUTING](docs/DOCS.md#contributing) for guidelines.
 
@@ -154,7 +154,7 @@ To suggest improvements, open a GitHub Issue with:
 
 ---
 
-## 🔒 Known Limitations
+## Known Limitations
 
 - The scheduler uses a **randomized greedy algorithm** — it is not guaranteed to find a globally optimal schedule. Regenerating may produce better results.
 - Very tight schedules (many subjects, few days) may leave some periods unscheduled. The warning panel will report these.
@@ -162,7 +162,7 @@ To suggest improvements, open a GitHub Issue with:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **GNU General Public License v3.0**.
 
@@ -172,11 +172,11 @@ See the [LICENSE](LICENSE) file for full terms, or visit [gnu.org/licenses/gpl-3
 
 ---
 
-## 👤 Author
+## Author
 
-**Om-Physics**
+**Om Jha**
 GitHub: [@Om-Physics](https://github.com/Om-Physics)
 
 ---
 
-*Built with ❤️ for teachers and administrators who deserve better tools.*
+*Built with for administrators who deserve better tools.*
